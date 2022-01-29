@@ -1,12 +1,26 @@
 .offers {
     margin-bottom: 40px;
+    
+
+}
+
+.offers__box-title {
+    margin-left: 390px;
+    margin-top: 170px;
 }
 
 .offers__list {
     display: inline-block;
+    
     width: 362px;
     background: #fff;
     margin-right: 10px;
+    margin-left: 390px;
+
+}
+
+.offers__country{
+    
 }
 
 .offers__content{
@@ -14,6 +28,8 @@
     padding-top: 33px;
     padding-bottom: 26px;
     color: #000;
+    
+    
 }
 
 .offers__title {
@@ -22,6 +38,7 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 
 .offers__feature, .offers__feature-icon, .offers__feature-text {
     display: inline-block;

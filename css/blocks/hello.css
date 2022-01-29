@@ -1,12 +1,16 @@
 .hello__title {
     font-size: 48px;
     font-weight: bold;
+    margin-left: 390px;
     line-height: 1.1;
     margin-bottom: 18px;
+    
+   
 }
 
 .hello__text {
     font-size: 18px;
-    margin-bottom: 45px;
+    margin-bottom: 63px;
+    margin-left: 390px;
 }
 
