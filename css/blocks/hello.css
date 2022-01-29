@@ -1,0 +1,12 @@
+.hello__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.hello__text {
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
