@@ -19,31 +19,28 @@
 
 
 .logo {
-    left: 165px;
     margin-top: 29px;
     transform: translate(0%, -50%);
     margin-right: 79px;
-    left: 390px;
+    width: 85px;
+    height: 36px;
 }
     
-.menu {
-    margin-left: 554px;
-    
-    
-    }
+
 
 
 .menu__item {
-    margin-right: 50px;
+    margin-right: -100px;
     margin-top: 25px;
      vertical-align: middle;
-     margin-left: -28px;
-  
+    margin-left: 130px;
+}
 
-    
-    }
-
-    .menu__item:last-child {
+.menu__item--active .menu__link{
+    color: #F5170E;
+}
+   
+.menu__item:last-child {
         margin-right: 0;
     }
 
@@ -59,7 +56,7 @@
 }
 
 .contacts {
-    right: 200px;
+    right: 230px;
     margin-top: 15px;
     font-style: normal;
     text-align: right;

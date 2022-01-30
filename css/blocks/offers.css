@@ -1,34 +1,39 @@
+
 .offers {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     
 
 }
 
 .offers__box-title {
-    margin-left: 390px;
-    margin-top: 170px;
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .offers__list {
-    display: inline-block;
-    
-    width: 362px;
-    background: #fff;
-    margin-right: 10px;
-    margin-left: 390px;
+   
+   min-height: 470px;
 
 }
 
 .offers__country{
+    display: inline-block;
+    border-radius: 4px;
+    width: 320px;
+    height: 360px;
+    background: #ffffff;
+    margin-right: 22px;
     
 }
 
 .offers__content{
-    padding: 24px;
-    padding-top: 33px;
-    padding-bottom: 26px;
+    font-size: 11px;
+    padding: 36px 30px;
+    padding-top: 10px;
+    padding-bottom: 0;
     color: #000;
-    
     
 }
 
@@ -39,13 +44,27 @@
     margin-bottom: 20px;
 }
 
+.offers__country:last-child {
+    margin-right: 0;
+}
 
 .offers__feature, .offers__feature-icon, .offers__feature-text {
     display: inline-block;
 }
 
+
+
 .offers__feature-text {
-    font-size: 16px;
-    line-height: 19px;
+    
+    
+    font-size: 12px;
+    line-height: 5px;
     color: #666666;
+  
+    
 }
+
+.offers__feature-text:last-child {
+    margin-right: 0;
+}
+
