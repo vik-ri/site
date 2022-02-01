@@ -38,30 +38,29 @@
     background-image: url(../../picha/telegram.png);
 }
 
-/*.socials__item--icon--tg, .socials__link:hover {
-
+.socials__item--icon--tg, .socials__link:hover {
+    background-image: url(../../picha/t.png);
 }
-*/
 .socials__item--icon--vk, .socials__link {
     background-image: url(../../picha/vk.png);
 }
 
-/*.socials__item--icon--vk, .socials__link:hover {
-    
+.socials__item--icon--vk, .socials__link:hover {
+    background-image: url(../../picha/vk2.png);
 }
-*/
+
 .socials__item--icon--fb, .socials__link {
     background-image: url(../../picha/f.png);
 }
 
-/*.socials__item--icon--fb, .socials__link:hover {
-    
+.socials__item--icon--fb, .socials__link:hover {
+    background-image: url(../../picha/f2.png);
 }
-*/
+
 .socials__item--icon--inst, .socials__link {
     background-image: url(../../picha/in.png);
 }
 
-/*.socials__item--icon--inst, .socials__link:hover {
-    
+.socials__item--icon--inst, .socials__link:hover {
+    background-image: url(../../picha/in2.png);
 }
