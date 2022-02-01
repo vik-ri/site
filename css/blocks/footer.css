@@ -1,0 +1,67 @@
+.footer__container {
+    position: relative;
+    border-top: 1px so rgba(255, 255, 255, 0.1);
+    padding-top: 48px;
+    padding-bottom: 57px;
+}
+
+.footer__contacts {
+    top: 43px;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center none;
+}
+
+.socials {
+    position: absolute;
+    top: 53px;
+    right: 300px;
+}
+
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.socials__item:last-child {
+    margin-right: 0;
+
+}
+
+
+.socials__item--icon--tg, .socials__link {
+    background-image: url(../../picha/telegram.png);
+}
+
+/*.socials__item--icon--tg, .socials__link:hover {
+
+}
+*/
+.socials__item--icon--vk, .socials__link {
+    background-image: url(../../picha/vk.png);
+}
+
+/*.socials__item--icon--vk, .socials__link:hover {
+    
+}
+*/
+.socials__item--icon--fb, .socials__link {
+    background-image: url(../../picha/f.png);
+}
+
+/*.socials__item--icon--fb, .socials__link:hover {
+    
+}
+*/
+.socials__item--icon--inst, .socials__link {
+    background-image: url(../../picha/in.png);
+}
+
+/*.socials__item--icon--inst, .socials__link:hover {
+    
+}
