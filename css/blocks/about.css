@@ -1,5 +1,5 @@
 .about {
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 }
 
 .about__container {
@@ -27,13 +27,14 @@
 
 .about__content {
     background: url(../../picha/mountains.png) center center / cover no-repeat;
-    padding: 70px 202px 66px 81px;
+    padding: 70px 204px 66px 81px;
     width: 785px;
     margin-left: auto;
     position: relative;
 }
 
 .about__text {
+    line-height: 1.65;
 margin-bottom: 43px;
 font-size: 16px;
 color: #000;
