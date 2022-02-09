@@ -14,11 +14,11 @@
 .offers__list {
    
    min-height: 470px;
+   display: inline-flex;
 
 }
 
 .offers__country{
-    display: inline-block;
     border-radius: 4px;
     width: 362px;
     background: #ffffff;
@@ -44,16 +44,19 @@
 }
 
 .offers__features {
+    display: flex;
+    align-items: center;
     padding-left: 4px;
     margin-bottom: 24px;
 }
 
 .offers__feature {
+    display: flex;
+    align-items: center;
     margin-right: 23px;
 }
 .offers__feature, .offers__feature-icon, .offers__feature-text {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
 }
 
 .offers__feature-img {

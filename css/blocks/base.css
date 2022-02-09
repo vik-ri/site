@@ -73,9 +73,17 @@ a:hover {
 }
 
 img {
-    display: block;
+    display: flex;
     max-width: 100%;
     max-height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex--align--items__center{
+    align-items: center;
 }
 
 .maine-page-wrapper{
@@ -96,10 +104,15 @@ img {
 
 .header,
 .maincontent {
-    position: relative;
     z-index: 2;
 }
 
+
+.contacts__item {
+    display: flex;
+     margin-left: auto;
+     align-items: flex-end;
+}
 
 .button {
     background: #f5170e;
@@ -153,6 +166,7 @@ img {
 .offers__box-title:after {
     content: "";
     display: inline-block;
+    position: absolute;
     background: url(../../picha/flame.png) no-repeat;
     margin-left: 10px;
     width: 21px;

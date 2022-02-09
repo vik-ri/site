@@ -9,7 +9,7 @@
 
 .about__img:before {
     content: "";
-    display: block;
+    display: flex;
     width: 490px;
     height: 505px;
     top:0;
