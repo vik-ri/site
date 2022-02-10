@@ -78,18 +78,20 @@ img {
     max-height: 100%;
 }
 
-.flex {
+.wrapper {
     display: flex;
-}
-
-.flex--align--items__center{
-    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
 }
 
 .maine-page-wrapper{
     overflow: hidden;
     min-height: 100%;
     background: url(../../picha/1.png) center top no-repeat, url(../../picha/22.png) right bottom 307px no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 

@@ -1,6 +1,23 @@
-.footer__container {
+.footer {
+    display: flex;
+    height: 140px;
+    position: relative;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.footer__col {
     display: flex;
     align-items: center;
+    margin-top: auto;
+}
+
+.footer__col--align--right {
+    align-items: flex-end;
+}
+.footer__container {
     
     border-top: 1px so rgba(255, 255, 255, 0.1);
     padding-top: 48px;
@@ -14,24 +31,21 @@
 
 
 
+
+
+.socials {
+    margin-right: 74px;
+   
+}
 .socials__link {
-   display: flex;
+  
     text-decoration: none;
     width: 36px;
     height: 36px;
     background: center center none;
 }
-
-.socials {
-    position: absolute;
-    top: 53px;
-    right: 300px;
-   
-}
-
 .socials__item {
-    display: flex;
-    align-items: center;
+    
     margin-right: 10px;
 }
 .socials__item:last-child {

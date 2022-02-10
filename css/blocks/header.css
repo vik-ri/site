@@ -1,12 +1,22 @@
 .header {
     padding-top: 26px;
-    margin-bottom: 131px;
-    height: 70px;
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.header .container {
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__col {
     display: flex;
     align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
 }
 
 .header__container {
@@ -19,7 +29,7 @@
 .logo {
     width: 85px;
     height: 36px;
-    display: flex;
+    display: block;
     margin-right: 75px;
     
 }

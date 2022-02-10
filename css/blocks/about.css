@@ -1,5 +1,6 @@
 .about {
-    margin-bottom: 55px;
+    margin-bottom: 30px;
+    display: flex;
 }
 
 .about__container {
@@ -9,7 +10,7 @@
 
 .about__img:before {
     content: "";
-    display: flex;
+    display: block;
     width: 490px;
     height: 505px;
     top:0;
@@ -28,7 +29,7 @@
 .about__content {
     background: url(../../picha/mountains.png) center center / cover no-repeat;
     padding: 70px 204px 66px 81px;
-    width: 785px;
+    max-width: 785px;
     margin-left: auto;
     position: relative;
 }

@@ -1,6 +1,6 @@
 
 .offers {
-    margin-bottom: 109px;
+    margin-bottom: 120px;
     
 
 }
@@ -13,16 +13,17 @@
 
 .offers__list {
    
-   min-height: 470px;
-   display: inline-flex;
+   min-height: 450px;
+   display: flex;
+   justify-content: space-between;
 
 }
 
 .offers__country{
     border-radius: 4px;
-    width: 362px;
+    width: calc(100% / 3 - 18px);
     background: #ffffff;
-    margin-right: 22px;
+    
     
 }
 
@@ -52,7 +53,7 @@
 
 .offers__feature {
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin-right: 23px;
 }
 .offers__feature, .offers__feature-icon, .offers__feature-text {
