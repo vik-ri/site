@@ -1,0 +1,55 @@
+.top-line {
+    min-height: 415px;
+    background: url(../../services-img/headline\ 1.png) right 50% top no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 44px;
+    
+
+}
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__services {
+    margin-bottom: 18px;
+}
+.page-title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__link {
+    color: #9a9a9a;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.breadcrumbs__link:hover {
+    font-weight: bolder;
+    color: #9a9a9a;
+
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #9a9a9a;
+}
+
+.breadcrumbs__item:last-child::after {
+    display: none;
+}
