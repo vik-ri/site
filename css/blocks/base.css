@@ -167,8 +167,6 @@ img {
 
 .offers__box-title:after {
     content: "";
-    display: inline-block;
-    position: absolute;
     background: url(../../picha/flame.png) no-repeat;
     margin-left: 10px;
     width: 21px;

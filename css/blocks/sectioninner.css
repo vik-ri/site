@@ -3,11 +3,10 @@
     color:#1A1B1E;
     padding: 95px 0;
 
-
 }
 
 .inner-section--bg--grey {
-    background: #d8dbdb;
+    background: #F4F5F5;
     font-weight: bold;
     margin-bottom: 75px;
 }
@@ -19,14 +18,16 @@
 .partners {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .partners__item {
-    margin-right: 46px;
+    margin-right: 42px;
+    margin-bottom: 55px;
 }
 
 .partners__item:nth-child(4n + 1) {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .partners__link {
@@ -35,5 +36,4 @@
     width: 220px;
     height: 70px;
     align-items: center;
-    justify-content: center;
 }

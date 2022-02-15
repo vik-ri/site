@@ -1,9 +1,8 @@
 .page-content {
-    background: #f2f2f2;
+    background: #ffffff;
     color: #303030;
     padding-top: 97px;
-    display: flex;
-    justify-content: space-between;
+    
 
 }
 
@@ -14,13 +13,13 @@
     
 }
 
-.btn:hover {
+.batton:hover {
     background: #da0100;
 }
 
 .service__img {
     width: 460px;
-    margin-right: 7px;
+    margin-right: 56px;
 }
 
 .service__content {
@@ -29,7 +28,7 @@
 
 .service__title {
     font-size: 36px;
-    font-style: bold;
+    font-weight: bold;
 
     margin-bottom: 22px;
    
@@ -43,7 +42,10 @@
 
 .pagination--theme--light {
     color: #000000;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagination--theme--light .pagination__current--active .pagination__link{

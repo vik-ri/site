@@ -1,3 +1,4 @@
+
 .top-line {
     min-height: 415px;
     background: url(../../services-img/headline\ 1.png) right 50% top no-repeat;
@@ -14,9 +15,21 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.service {
+    display: flex;
+}
+.services__item {
+    margin-bottom: 49px;
+}
 .header__services {
     margin-bottom: 18px;
 }
+
+.service__img {
+    flex-shrink: 0;
+}
+
 .page-title {
     font-size: 72px;
     line-height: 1;

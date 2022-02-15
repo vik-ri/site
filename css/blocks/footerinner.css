@@ -1,8 +1,9 @@
 .container-footer__sectiion {
-    height: 140px;
     margin-top: 12px;
     padding: 45px 0;
     background: #001821;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__inner {
