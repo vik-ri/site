@@ -2,8 +2,23 @@
     height: 140px;
     margin-top: 12px;
     padding: 45px 0;
+    background: #001821;
 }
 
 .footer__inner {
     margin-top: auto;
+}
+
+.contacts__phone {
+    color: #FFFF;
+}
+
+.menu__list {
+    color: #FFFF;
+}
+
+.socials {
+    margin-right: 74px;
+    display: flex;
+    justify-content: flex-end;
 }

@@ -43,6 +43,7 @@
 
 .pagination--theme--light {
     color: #000000;
+    margin-bottom: 80px;
 }
 
 .pagination--theme--light .pagination__current--active .pagination__link{

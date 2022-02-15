@@ -7,18 +7,22 @@
 }
 
 .inner-section--bg--grey {
-    background: #f4f5f5;
+    background: #d8dbdb;
     font-weight: bold;
     margin-bottom: 75px;
 }
-
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 82px;
+}
 .partners {
     display: flex;
     flex-wrap: wrap;
 }
 
 .partners__item {
-    margin-left: 46px;
+    margin-right: 46px;
 }
 
 .partners__item:nth-child(4n + 1) {
@@ -28,8 +32,8 @@
 .partners__link {
     text-decoration: none;
     display: flex;
-    width: 270px;
-    height: 100px;
+    width: 220px;
+    height: 70px;
     align-items: center;
     justify-content: center;
 }
