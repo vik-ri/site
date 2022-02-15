@@ -2,6 +2,8 @@
     background: #f2f2f2;
     color: #303030;
     padding-top: 97px;
+    display: flex;
+    justify-content: space-between;
 
 }
 

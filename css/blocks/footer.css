@@ -13,12 +13,12 @@
 }
 
 .footer__col--align--right {
-    align-items: flex-end;
+    justify-content: flex-end;
 }
 .footer__container {
     
     border-top: 1px so rgba(255, 255, 255, 0.1);
-    padding-top: 48px;
+    padding-top: 57px;
     padding-bottom: 57px;
 }
 
@@ -33,10 +33,11 @@
 
 .socials {
     margin-right: 74px;
+    display: flex;
    
 }
 .socials__link {
-  
+    display: block;
     text-decoration: none;
     width: 36px;
     height: 36px;
