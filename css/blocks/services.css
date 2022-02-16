@@ -22,6 +22,10 @@
 .services__item {
     margin-bottom: 49px;
 }
+
+.services__item:last-child {
+    margin-bottom: 0;
+}
 .header__services {
     margin-bottom: 18px;
 }
@@ -40,6 +44,7 @@
 .breadcrumbs__list {
     display: flex;
     align-items: center;
+
 }
 
 .breadcrumbs__item {
