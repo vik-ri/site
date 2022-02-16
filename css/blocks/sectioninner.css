@@ -1,14 +1,13 @@
 .inner-section {
     background: #fff;
     color:#1A1B1E;
-    padding: 95px 0;
+    padding: 95px 0 50px 0;
 
 }
 
 .inner-section--bg--grey {
     background: #F4F5F5;
     font-weight: bold;
-    margin-bottom: 75px;
 }
 .inner-section__title {
     font-size: 48px;
