@@ -21,8 +21,17 @@
 }
 
 .partners__item {
+    min-width: 241px;
+    max-width: 300px;
+    flex-grow: 1;
     margin-right: 42px;
     margin-bottom: 55px;
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+
+.partners__item:hover {
+    filter: grayscale(0);
 }
 
 .partners__item:nth-child(4n + 1) {
