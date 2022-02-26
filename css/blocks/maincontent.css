@@ -51,7 +51,10 @@
 .pagination--theme--light .pagination__current--active .pagination__link{
     color: #ffffff;
     background: #da0100;
+}
 
+.pagination__reviews {
+    margin-bottom: 87px;
 }
 
 .inner-section__title {

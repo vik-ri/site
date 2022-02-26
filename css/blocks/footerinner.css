@@ -1,11 +1,12 @@
 .container-footer__sectiion {
     padding: 37px 0 43px 0;
-    background: #001821;
     display: flex;
     justify-content: space-between;
+    background: #001821;
 }
 
-.inner__footer {
+.inner__footer, .inner__footer {
+    background: #001821;
     margin-top: auto;
 }
 

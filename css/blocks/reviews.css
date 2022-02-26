@@ -1,19 +1,15 @@
 .reviews {
-    display: inline-block;
-    flex-direction: column;
-    padding: 51px 30px;
     column-count: 2;
-    column-gap: 95px;
-    margin-bottom: 35px;
+    column-gap: 27px;
+    margin-bottom: 60px;
 
 }
 
 .review {
     background: #F4F5F5;
     border-radius: 4px;
-    
-    
-    margin-bottom: 70px;
+    padding: 52px 31px 32px 30px;
+    display: inline-block;
 }
 
 
@@ -24,7 +20,7 @@
 }
 
 .reviews__item {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 .avatar {
     width: 142px;
@@ -85,6 +81,7 @@
 
 .review__content-text {
     margin-bottom: 48px;
+    line-height: 1.65;
 }
 
 .review__date {

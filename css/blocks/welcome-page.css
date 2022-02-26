@@ -1,0 +1,76 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: 
+     url(../../welcome-img/bg.png) center / cover no-repeat;
+}
+
+
+.central {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.cental--asia {
+    opacity: 0;
+    animation: zoom 9s ease-in;
+    animation-fill-mode: forwards;
+}
+
+
+
+.central__title {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    font-weight: 100;
+}
+
+
+@keyframes zoom {
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.button--long {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:60px;
+    width: 168px;
+    height: 55px;
+   
+   
+}
