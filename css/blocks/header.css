@@ -88,6 +88,16 @@
     padding-top: 8px;
 }
 
+.contacts__dropdown-wrap {
+    position: relative;
+}
+
+.contacts__dropdown-wrap:hover .contacts__dropdown {
+    right: 0;
+    left: inherit;
+    opacity: 1;
+}
+
 .contacts__shedule {
    
     font-size: 13px;
@@ -96,12 +106,6 @@
     
 
     
-}
-
-.contacts__shedule:hover .contacts__dropdown {
-    right: 0;
-    left: inherit;
-    opacity: 1;
 }
 
 .contacts__free {

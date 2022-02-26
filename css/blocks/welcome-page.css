@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     background: 
+     url(../../welcome-img/shades.png) center top 44% no-repeat,
      url(../../welcome-img/bg.png) center / cover no-repeat;
 }
 
@@ -19,7 +20,7 @@
    
 }
 
-.cental--asia {
+.cental--asia, .welcome__container{
     opacity: 0;
     animation: zoom 9s ease-in;
     animation-fill-mode: forwards;
