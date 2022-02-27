@@ -124,6 +124,8 @@ color: #9A9A9A;
     padding: 15px;
     opacity: 0;
     left: -9999px;
+    max-width: 160px;
+    font-size: 13px;
 }
 
 .contacts__dropdown::before {
